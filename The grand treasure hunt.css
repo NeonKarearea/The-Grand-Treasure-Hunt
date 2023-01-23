@@ -1,0 +1,25 @@
+body {
+	background-color: tomato;
+	font-family: calibri;
+	text-align: center;
+}
+h1 {
+	font-size: 75px;
+	margin: 0px;
+}
+pre {
+	font-size: 20px;
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	background-color: slateblue;
+	font-size: 15px;
+	padding: 10px 20px;
+	color: black;
+	display: inline-block;
+}
+a:hover {
+	background-color: dodgerblue;
+}
+p {
+	font-size: 20px;
