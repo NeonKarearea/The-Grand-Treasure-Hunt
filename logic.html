@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Puzzle 3.5: Boolean</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<h1>Puzzle 3.5: Logic</h1>
+		<hr>
+		<p>Welcome to Puzzle 3.5. This next puzzle is a certain logic operation.</p>
+		<p>Solve <em>01100010 01001111 01010011 01001011 01000010 01000010</em></p>
+		<form>
+			<label for="answer"><b>Answer (in ASCII): </b></label>
+			<input type="text" id="answer" onkeydown="if (event.keyCode == 13) document.getElementById('submit').click();">
+			<input type="button" id="submit" value="Sumbit" onclick="check();">
+		</form>
+		<script src="puzzle-check-3.js"></script>
+		<!--The key is 35 in binary-->
+		<!--HINT: You may need/want to search Wikipedia for the name of the operation-->
+	</body>
+</html>
